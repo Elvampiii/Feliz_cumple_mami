@@ -1,0 +1,43 @@
+PROYECTO: REGALO DE CUMPLEAÑOS PARA MAMÁ
+
+ESTRUCTURA:
+- index.html
+- style.css
+- script.js
+- musica/       (pon aquí tus archivos MP3)
+- fotos/        (pon aquí las fotografías que quieras incluir permanentemente)
+
+ESTA VERSIÓN TIENE:
+- 7 pantallas separadas con navegación por botones, menú y flechas del teclado.
+- 10 cartas seleccionables.
+- 12 tarjetas de frases.
+- Álbum de fotos con vista previa local.
+- Reproductor con play/pausa, anterior/siguiente, progreso, volumen y lista de canciones.
+- Sorpresa final y animación de pétalos.
+- Diseño adaptable a computadora y celular.
+
+ABRIR EN VISUAL STUDIO CODE:
+1. Extrae el ZIP.
+2. Abre la carpeta "regalo_mama_pantallas" en Visual Studio Code.
+3. Abre index.html con Live Server.
+
+CONFIGURAR MÚSICA:
+1. Copia canciones MP3 que tengas derecho a utilizar dentro de la carpeta "musica".
+2. Abre script.js y busca el arreglo llamado "const tracks = [".
+3. Quita los // de las líneas de ejemplo y cambia nombres, artistas y rutas.
+   Ejemplo:
+   const tracks = [
+     { title: "Canción bonita", artist: "Artista", src: "musica/cancion-bonita.mp3" },
+     { title: "Otra canción", artist: "Artista", src: "musica/otra-cancion.mp3" },
+   ];
+4. Los nombres de archivo deben coincidir exactamente, incluyendo espacios, acentos y mayúsculas.
+5. Guarda y recarga la página. Pulsa reproducir; los navegadores normalmente bloquean la reproducción automática.
+
+FOTOS:
+El selector permite previsualizar fotos en tu computadora, pero no las publica por sí mismo.
+Para que estén visibles para cualquier persona en el enlace web, guarda las fotos dentro de "fotos" y reemplaza cada bloque de etiqueta <label class="photo-slot"> por una imagen fija, por ejemplo:
+<div class="photo-slot has-image"><img src="fotos/mama-y-hija.jpg" alt="Mamá y su hija"><strong>Un recuerdo juntas</strong></div>
+Asegúrate de que el archivo de imagen exista en esa ruta.
+
+PUBLICACIÓN:
+Cuando publiques la página, sube también las carpetas "musica" y "fotos" y sus archivos. Usa únicamente música para la que tengas permiso o derechos de uso.

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8e9e4">
+  <title>Un regalo para mamá ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress-track"><div id="progressBar"></div></div>
+
+  <header class="topbar">
+    <a class="logo" href="#pantalla-inicio">Para mamá <span>♡</span></a>
+    <button id="menuButton" class="menu-button" aria-label="Abrir navegación" aria-expanded="false">☰</button>
+    <nav id="mainNav" class="main-nav">
+      <button data-go="0" class="nav-link active">Inicio</button>
+      <button data-go="1" class="nav-link">Dedicatoria</button>
+      <button data-go="2" class="nav-link">Cartas</button>
+      <button data-go="3" class="nav-link">Frases</button>
+      <button data-go="4" class="nav-link">Jardín</button>
+      <button data-go="5" class="nav-link">Música</button>
+      <button data-go="6" class="nav-link">Final</button>
+    </nav>
+  </header>
+
+  <main id="pageDeck">
+    <section class="screen hero-screen active" id="pantalla-inicio" data-screen="0">
+      <div class="hero-flower flower-one">✿</div><div class="hero-flower flower-two">❀</div>
+      <div class="hero-content">
+        <p class="kicker">Un detalle hecho con amor</p>
+        <p class="script-line">Para una mujer extraordinaria</p>
+        <h1>Feliz cumpleaños,<br><em>mamá</em></h1>
+        <div class="ornament">✧ ───── ♡ ───── ✧</div>
+        <p class="hero-text">Hoy el mundo tiene una razón más para celebrar: tu vida. Esta página está hecha para recordarte cuánto te quiero, agradecerte por tu historia y regalarte un rincón lleno de palabras bonitas.</p>
+        <button class="primary-button" data-next>Entrar a tu regalo <span>♡</span></button>
+
+      <div class="home-player-wrap">
+        <p class="home-player-label">♫ UNA MELODÍA PARA ACOMPAÑAR ESTE REGALO ♫</p>
+        <div class="player-layout home-player-layout">
+          <div class="album-art" id="albumArt"><div class="vinyl"><div class="vinyl-label">♡</div></div><div class="album-caption">Una canción<br>para mamá</div><span class="music-note note-one">♫</span><span class="music-note note-two">♪</span></div>
+          <div class="player-panel">
+            <p class="player-kicker">REPRODUCTOR MUSICAL</p>
+            <h3 id="trackTitle">Añade tu primera canción</h3>
+            <p id="trackArtist" class="track-artist">Música para este momento</p>
+            <audio id="audioPlayer" preload="metadata"></audio>
+            <div class="track-progress"><span id="currentTime">0:00</span><input id="seekBar" type="range" min="0" max="100" value="0" aria-label="Progreso de la canción"><span id="duration">0:00</span></div>
+            <div class="player-controls"><button id="previousTrack" aria-label="Canción anterior">⏮</button><button id="playPause" class="play-button" aria-label="Reproducir">▶</button><button id="nextTrack" aria-label="Siguiente canción">⏭</button></div>
+            <div class="volume-row"><span>VOL</span><input id="volumeBar" type="range" min="0" max="1" step="0.01" value="0.75" aria-label="Volumen"><span id="volumeValue">75%</span></div>
+            <div class="playlist-heading"><span>LISTA DE REPRODUCCIÓN</span><span id="trackCount">0 canciones</span></div>
+            <div id="playlist" class="playlist"><p class="empty-playlist">Añade canciones MP3 a la carpeta musica y configúralas en script.js.</p></div>
+            <p class="player-tip">Si la música no comienza sola, pulsa reproducir. Los navegadores suelen bloquear el audio automático.</p>
+          </div>
+        </div>
+      </div>
+        <p class="tiny-note">Siete pantallas, muchas palabras y todo mi cariño.</p>
+      </div>
+      <div class="bottom-hint">SIGUE DESCUBRIENDO <span>↓</span></div>
+    </section>
+
+    <section class="screen dedication-screen" id="pantalla-dedicatoria" data-screen="1">
+      <div class="screen-heading">
+        <p class="kicker">Pantalla 02 · Desde mi corazón</p>
+        <h2>Hoy quiero celebrar<br><em>mucho más que tu cumpleaños</em></h2>
+        <p class="heading-intro">Quiero celebrar a la mujer que eres, la historia que has vivido y todo lo bonito que todavía te espera.</p>
+      </div>
+      <div class="dedication-layout">
+        <div class="dedication-seal"><span>Con amor</span><strong>mamá</strong><small>♡</small></div>
+        <div class="dedication-copy">
+
+<p>💗🌷 Mamá, a veces los días pasan tan rápido que dejamos para después las palabras que más importan, los abrazos que queremos dar y los sentimientos que guardamos en lo más profundo del corazón. Entre tantas cosas que hacemos día tras día, olvidamos detenernos un momento para decirle a las personas especiales cuánto significan para nosotros. Por eso hoy quise hacer una pequeña pausa y preparar algo especialmente para ti, algo que puedas leer con calma, sin prisas y con el corazón tranquilo, como si estuviéramos teniendo una conversación bonita en la que lo único importante fuera recordarte lo maravillosa que eres. 🥹💐❤️</p>
+
+<p>🌸💖 Quiero que, mientras leas estas palabras, puedas sentir todo el cariño con el que fueron escritas. No quiero que esta sea solamente una página bonita o un detalle más de cumpleaños; quiero que sea un pequeño recuerdo que puedas guardar en tu corazón, algo que te haga sonreír y te recuerde lo especial que eres. A veces no encontramos las palabras exactas para expresar lo que sentimos, porque hay cariños tan grandes que parecen no caber en ninguna frase, pero aun así vale la pena intentarlo, porque las personas importantes merecen escuchar lo mucho que las queremos. 💌🦋✨</p>
+
+<p>🎁🌹 No existe un regalo que pueda resumir todo lo que significas. Ninguna caja, ninguna flor, ningún pastel y ninguna página pueden guardar por completo el cariño que una persona puede sentir por alguien tan especial. Sin embargo, creo que los regalos más bonitos no siempre son los más grandes ni los más costosos, sino aquellos que se preparan pensando en la sonrisa de la persona que los recibirá. Por eso quise reunir aquí algunos de mis pensamientos, dedicarte estas palabras y crear un pequeño espacio lleno de flores, recuerdos y buenos deseos, esperando que cada detalle te haga sentir querida y te recuerde que hoy es un día digno de celebrar. 🎂🌷💝</p>
+
+<p>🥹💗 Si pudiera pedirle algo a la vida para ti, pediría que te regalara muchísimos años más de salud, tranquilidad y felicidad. Pediría que tus mañanas comenzaran con esperanza, que tus tardes estuvieran llenas de pequeños momentos agradables y que tus noches terminaran con la paz de saber que siempre hay cosas bonitas por las cuales sonreír. Deseo que nunca te falten motivos para ilusionarte, sueños que te emocionen y personas sinceras con quienes compartir las alegrías de la vida. 🌈🌻❤️</p>
+
+<p>🫶🏻🌸 Deseo que nunca olvides que tú también mereces descansar, recibir ternura, disfrutar de sorpresas bonitas y tener tiempo para tus propios sueños. No tienes que hacerlo todo, resolverlo todo ni ser perfecta para merecer amor. No necesitas tener todas las respuestas ni estar bien todos los días para seguir siendo una persona maravillosa. Eres importante por quien eres, por tu esencia, por tus sentimientos y por todas esas pequeñas cosas que te hacen única. Incluso en los días en los que estés cansada, preocupada o simplemente necesites un momento para ti, recuerda que mereces tratarte con la misma paciencia y cariño que tantas veces ofreces a los demás. 🧸💐💖</p>
+
+<p>🌷✨ Ojalá la vida te dé muchas oportunidades para hacer aquellas cosas que te hacen feliz, para descubrir lugares nuevos, disfrutar de tus canciones favoritas, reír hasta que te duela la barriga y crear recuerdos que algún día puedas mirar con una sonrisa. Ojalá nunca dejes tus sueños olvidados por pensar demasiado en las responsabilidades, porque tu felicidad también importa y tus ilusiones merecen tener un lugar especial. Quiero que tengas momentos en los que puedas mirar a tu alrededor y pensar: “Estoy aquí, estoy viviendo algo bonito y todavía me quedan muchas cosas hermosas por descubrir”. 🌅🦋💗</p>
+
+<p>💐❤️ Hoy y siempre, deseo que la vida te encuentre rodeada de personas que te escuchen, te respeten y te quieran de una manera sincera. Personas con quienes puedas hablar de tus alegrías, compartir tus preocupaciones y sentirte libre de ser tú misma. Que nunca tengas que esconder tus sentimientos para parecer fuerte y que siempre encuentres un espacio donde puedas descansar el corazón. Mereces recibir cariño sin tener que pedirlo constantemente, abrazos que transmitan tranquilidad y palabras que te recuerden lo mucho que vales. 🥹🌹🫶🏻</p>
+
+<p>🌻💖 También deseo que aprendas a reconocer todas las cosas bonitas que hay en ti. A veces podemos ser tan exigentes con nosotros mismos que olvidamos mirar cuánto hemos avanzado, todo lo que hemos aprendido y las dificultades que hemos logrado superar. Por eso quiero que recuerdes que cada etapa de tu vida tiene un valor especial, que tus experiencias forman parte de tu historia y que todavía tienes muchas páginas preciosas por escribir. No importa cuántos años pasen, siempre habrá nuevas oportunidades para aprender, sonreír, cambiar de rumbo y comenzar algo que te haga feliz. 📖🌈✨</p>
+
+<p>🌙💗 Si alguna vez tienes un día difícil, deseo que encuentres algo que te devuelva la calma: una canción que te guste, una conversación bonita, una taza de tu bebida favorita, una flor que llame tu atención o un abrazo que te haga sentir acompañada. A veces la felicidad no llega en forma de grandes acontecimientos, sino escondida en esos pequeños instantes que parecen sencillos, pero que terminan convirtiéndose en recuerdos muy especiales. Ojalá la vida te regale muchos de esos momentos y que, incluso en los días comunes, encuentres una razón para agradecer y sonreír. ☕🌷🦋</p>
+
+<p>💌🌹 Quiero que esta página sea como un pequeño jardín preparado para ti, un lugar donde cada flor represente un buen deseo, cada frase guarde un poquito de cariño y cada detalle esté pensado para regalarte una sonrisa. 🌷🌸🌻 Porque las flores no solamente son bonitas cuando las recibimos; también nos recuerdan que las cosas hermosas necesitan tiempo, paciencia y cuidado para crecer. De la misma manera, deseo que tu vida siga llenándose de experiencias bonitas, amistades sinceras, momentos de tranquilidad y sueños que florezcan poco a poco. Que nunca te falten razones para seguir creciendo y disfrutando de todo lo que la vida tiene para ofrecerte. 💐💖✨</p>
+
+<p>🎂🎉 Hoy celebramos tu cumpleaños, pero también celebramos todo lo que todavía está por venir. Celebramos las nuevas oportunidades, los lugares que aún no conoces, las fotografías que todavía no has tomado, las canciones que aún no has escuchado y las risas que todavía nos esperan. Que este nuevo año de vida te traiga muchísima salud, paz para tu corazón, fuerza para enfrentar los desafíos y alegría para disfrutar cada pequeño triunfo. Que tus deseos más bonitos encuentren su camino y que tengas la oportunidad de vivir momentos que se conviertan en algunos de tus recuerdos favoritos. 🎁🌈💝</p>
+
+<p>🥹🌷 Tal vez estas palabras no sean suficientes para expresar todo lo que quisiera desearte, pero espero que puedan transmitirte algo muy importante: que tu felicidad importa, que tu tranquilidad importa y que tú mereces disfrutar de una vida llena de cariño y momentos especiales. Ojalá nunca olvides que no necesitas esperar a que llegue tu cumpleaños para consentirte, darte un descanso o hacer algo que te haga feliz. Cada día puede ser una nueva oportunidad para regalarte un momento bonito, agradecer por lo que tienes y recordar que también mereces ser protagonista de tu propia felicidad. 💗🦋🌸</p>
+
+<p>🌹💞 Gracias por permitirme dedicarte este pequeño espacio y por formar parte de una historia llena de momentos que vale la pena recordar. Espero que, cuando vuelvas a visitar esta página, encuentres en ella una sonrisa, un recuerdo bonito o una palabra que te alegre el día. Quise crear algo diferente, algo que no se quedara únicamente en un regalo material, sino que pudiera acompañarte como un pequeño recuerdo de este cumpleaños. Porque hay detalles que quizá parecen sencillos, pero que se vuelven especiales por todo el cariño que llevan detrás. 💌🎀❤️</p>
+
+<p>🌸💖 Y si pudiera resumir todos mis deseos para ti en unas pocas palabras, te diría que deseo que seas muy feliz, que tengas salud para disfrutar de muchísimos años más, que encuentres tranquilidad incluso cuando la vida se complique y que nunca dejes de soñar con las cosas que te hacen ilusión. Que recibas tanto amor como el que mereces, que cada día encuentres una pequeña razón para sonreír y que, al mirar atrás, puedas sentir orgullo por tu historia y emoción por todo lo que todavía te queda por vivir. 🥹💐🌈</p>
+
+<p>🎂🌷 Feliz cumpleaños, mamá. Que hoy te rodeen las sonrisas, los abrazos, las flores y las palabras bonitas. Que este nuevo capítulo de tu vida esté lleno de bendiciones, nuevas experiencias y recuerdos inolvidables. Y cuando las velitas se apaguen y termine este día tan especial, que la felicidad que sientas hoy continúe acompañándote durante todos los días que vienen. Nunca olvides que mereces cosas bonitas, que tus sueños siguen teniendo valor y que todavía hay muchísimas razones para emocionarte por el futuro. 💖🦋🎁🌹</p>
+
+<div class="handwritten">Con todo mi cariño, tu hija ♡ 💗🌷🦋<br>Que la vida te regale tanta felicidad como la que mereces, hoy, mañana y siempre. 🎂💐🥹❤️</div>
+
+        </div>
+      </div>
+      <div class="screen-actions"><button class="secondary-button" data-prev>← Volver</button><button class="primary-button" data-next>Leer las cartas →</button></div>
+    </section>
+
+    <section class="screen letters-screen" id="pantalla-cartas" data-screen="2">
+      <div class="screen-heading">
+        <p class="kicker">Pantalla 03 · Diez cartas para ti</p>
+        <h2>Cartas que nacen<br><em>de todo lo que te quiero</em></h2>
+        <p class="heading-intro">Pulsa cada sobre para abrir una carta. Puedes leerlas en el orden que quieras.</p>
+      </div>
+      <div class="letter-picker" id="letterPicker">
+        <button class="envelope active" data-letter="0"><span class="envelope-icon">✉</span><span class="envelope-title">Gracias por existir</span><small>Carta 01</small></button>
+        <button class="envelope" data-letter="1"><span class="envelope-icon">♡</span><span class="envelope-title">Mi ejemplo de vida</span><small>Carta 02</small></button>
+        <button class="envelope" data-letter="2"><span class="envelope-icon">✿</span><span class="envelope-title">Mi lugar seguro</span><small>Carta 03</small></button>
+        <button class="envelope" data-letter="3"><span class="envelope-icon">❀</span><span class="envelope-title">Mírate con mis ojos</span><small>Carta 04</small></button>
+        <button class="envelope" data-letter="4"><span class="envelope-icon">♡</span><span class="envelope-title">Para tus días difíciles</span><small>Carta 05</small></button>
+        <button class="envelope" data-letter="5"><span class="envelope-icon">✧</span><span class="envelope-title">Tus enseñanzas</span><small>Carta 06</small></button>
+        <button class="envelope" data-letter="6"><span class="envelope-icon">❁</span><span class="envelope-title">Tus sueños también</span><small>Carta 07</small></button>
+        <button class="envelope" data-letter="7"><span class="envelope-icon">♡</span><span class="envelope-title">Pequeños tesoros</span><small>Carta 08</small></button>
+        <button class="envelope" data-letter="8"><span class="envelope-icon">✉</span><span class="envelope-title">Palabras que guardo</span><small>Carta 09</small></button>
+        <button class="envelope" data-letter="9"><span class="envelope-icon">♥</span><span class="envelope-title">Mi deseo para ti</span><small>Carta 10</small></button>
+      </div>
+      <article class="open-letter" id="openLetter" aria-live="polite">
+        <div class="letter-label">UNA CARTA PARA TI</div>
+        <h3 id="letterTitle">Gracias por existir</h3>
+        <div id="letterBody" class="letter-body"></div>
+        <p class="letter-signature" id="letterSignature">Te quiero muchísimo, mamá. ♡</p>
+      </article>
+      <div class="screen-actions"><button class="secondary-button" data-prev>← Dedicatoria</button><button class="primary-button" data-next>Seguir con las frases →</button></div>
+    </section>
+
+    <section class="screen quotes-screen" id="pantalla-frases" data-screen="3">
+      <div class="screen-heading">
+        <p class="kicker">Pantalla 04 · Frases para guardar</p>
+        <h2>Doce formas de decir<br><em>te quiero, mamá</em></h2>
+        <p class="heading-intro">Pequeños recordatorios para volver a ellos cuando quieras.</p>
+      </div>
+      <div class="quote-wall">
+        
+<article class="quote-card">
+  <span>01</span>
+  <p>“💗🌷 Tu amor es una de las formas más bonitas en las que la vida me ha cuidado. En tus palabras encuentro ternura, en tus abrazos encuentro tranquilidad y en tus recuerdos encuentro motivos para sonreír. Gracias por ser una personita tan especial. 🥹❤️✨”</p>
+  <b>♡</b>
+</article>
+
+<article class="quote-card">
+  <span>02</span>
+  <p>“🌸💖 Ojalá la vida te devuelva, multiplicado por mil, todo el cariño que has sembrado en los corazones de quienes te rodean. Que cada lágrima se convierta en una sonrisa, cada preocupación en tranquilidad y cada nuevo amanecer te traiga una razón más para ser feliz. 🦋🌈💐”</p>
+  <b>✿</b>
+</article>
+
+<article class="quote-card">
+  <span>03</span>
+  <p>“🎂💝 No necesito una fecha especial para quererte, pero hoy quiero recordártelo de una forma distinta, con palabras que nazcan del corazón y pequeños detalles que te hagan sonreír. Hoy celebro tu vida, tu esencia y la alegría de poder compartir contigo un día tan bonito. 🥹🌷❤️”</p>
+  <b>♡</b>
+</article>
+
+<article class="quote-card">
+  <span>04</span>
+  <p>“🌹💗 Si pudiera volver a empezar mi historia, desearía encontrarte otra vez y tener la dicha de llamarte mamá. Porque existen personas que hacen que el mundo sea más bonito con su presencia, y tú eres una de esas personas que dejan huellas imborrables en el corazón. 🫶🏻✨💐”</p>
+  <b>❀</b>
+</article>
+
+<article class="quote-card">
+  <span>05</span>
+  <p>“🌻💕 También mereces flores, descanso, abrazos sinceros y días en los que alguien se preocupe por ti. Mereces que te consientan, que te escuchen y que te recuerden lo maravillosa que eres, porque no siempre tienes que ser quien cuida de los demás; tú también mereces sentirte cuidada y querida. 🥹🧸❤️”</p>
+  <b>♡</b>
+</article>
+
+<article class="quote-card">
+  <span>06</span>
+  <p>“📖🌷 Gracias por las enseñanzas que comprendo hoy y por aquellas que entenderé con el paso del tiempo. La vida nos enseña muchas cosas, pero hay lecciones que se quedan para siempre porque nacen del cariño, de las experiencias compartidas y de las personas que nos ayudan a crecer. 💗🦋✨”</p>
+  <b>✧</b>
+</article>
+
+<article class="quote-card">
+  <span>07</span>
+  <p>“🏡💞 Mi hogar también vive en los recuerdos bonitos que hemos construido juntas, en las risas inesperadas, en las conversaciones que se quedan en la memoria y en esos pequeños instantes que quizá parecen sencillos, pero que con el tiempo se convierten en tesoros del corazón. 🌸🥹❤️”</p>
+  <b>♡</b>
+</article>
+
+<article class="quote-card">
+  <span>08</span>
+  <p>“🌹💖 Eres mucho más que todo lo que haces por los demás. Eres valiosa por tu forma de ser, por tu esencia, por tus sentimientos y por esa luz especial que llevas contigo. Nunca olvides que mereces amor simplemente por ser tú, incluso en los días en los que no te sientas con tantas fuerzas. 🫶🏻🦋✨”</p>
+  <b>❀</b>
+</article>
+
+<article class="quote-card">
+  <span>09</span>
+  <p>“🌈🌷 Que nunca te falten motivos para sonreír, brazos que te den un abrazo sincero y personas con quienes compartir tus alegrías. Que siempre tengas a alguien dispuesto a escucharte y que los días difíciles nunca te hagan olvidar todas las cosas bonitas que todavía te esperan. 💐💗🥹”</p>
+  <b>♡</b>
+</article>
+
+<article class="quote-card">
+  <span>10</span>
+  <p>“📚✨ Tu historia todavía tiene muchísimas páginas preciosas esperando ser escritas. Aún quedan sueños por cumplir, lugares por conocer, canciones por disfrutar, fotografías por guardar y momentos que algún día recordarás con una sonrisa. 🌷💝 Que este nuevo año de vida sea el comienzo de capítulos llenos de paz, amor y felicidad. 🎂🦋”</p>
+  <b>✿</b>
+</article>
+
+<article class="quote-card">
+  <span>11</span>
+  <p>“🧸💗 Gracias por formar parte de mis primeros recuerdos y de tantos sueños que todavía tengo. Hay personas que llegan a nuestra vida y dejan algo bonito que permanece con nosotros, y tú tienes esa capacidad de convertir momentos sencillos en recuerdos que merecen quedarse para siempre. 🌸❤️✨”</p>
+  <b>♡</b>
+</article>
+
+<article class="quote-card">
+  <span>12</span>
+  <p>“🎂🎉 Hoy celebro tu cumpleaños y todos los momentos hermosos que todavía nos quedan por vivir. Celebro tus sonrisas, tus sueños, tus nuevas oportunidades y la posibilidad de seguir creando recuerdos que algún día nos harán decir: qué bonito fue vivir todo aquello. Que la felicidad te acompañe hoy y siempre. 💐🥹💖”</p>
+  <b>♥</b>
+</article>
+
+<article class="quote-card">
+  <span>13</span>
+  <p>“🌙💖 Si pudiera regalarte algo que durara para siempre, te regalaría la certeza de que eres una persona muy especial. Quisiera que incluso en tus días más grises pudieras recordar que mereces cosas bonitas, que tu presencia importa y que todavía hay muchísimas razones para mirar al futuro con ilusión. 🦋🌷✨”</p>
+  <b>♡</b>
+</article>
+
+<article class="quote-card">
+  <span>14</span>
+  <p>“🌻❤️ Que la vida te regale mañanas tranquilas, tardes llenas de risas y noches en las que puedas descansar con el corazón en paz. Que tus preocupaciones se hagan más pequeñas, que tus alegrías crezcan y que cada día encuentres algo que te recuerde lo hermoso que es estar aquí. 🌈💐💗”</p>
+  <b>✿</b>
+</article>
+
+<article class="quote-card">
+  <span>15</span>
+  <p>“💌🌷 A veces las palabras parecen pequeñas para expresar todo lo que una persona significa, pero aun así vale la pena decirlas. Por eso hoy quiero recordarte que eres importante, que mereces ser celebrada y que tu cumpleaños es una oportunidad preciosa para agradecer por tu vida y desearte todo lo bueno que el mundo pueda ofrecerte. 🥹💝”</p>
+  <b>♡</b>
+</article>
+
+<article class="quote-card">
+  <span>16</span>
+  <p>“🦋🌸 Nunca dejes de regalarte momentos felices. Escucha tus canciones favoritas, disfruta de las cosas sencillas, ríete hasta que te duela la barriga y date permiso de descansar cuando lo necesites. La vida no solamente está hecha para cumplir responsabilidades; también está hecha para disfrutar, soñar y crear recuerdos inolvidables. 💗✨🌈”</p>
+  <b>❀</b>
+</article>
+
+<article class="quote-card">
+  <span>17</span>
+  <p>“🌹💞 Hay regalos que se envuelven con papel y otros que se guardan directamente en el corazón. Hoy quiero regalarte palabras sinceras, buenos deseos y un pequeño recuerdo que te haga sonreír. Quizá sea un detalle sencillo, pero está lleno de cariño y de la esperanza de que este día se convierta en uno de tus recuerdos favoritos. 🎁🥹💖”</p>
+  <b>♡</b>
+</article>
+
+<article class="quote-card">
+  <span>18</span>
+  <p>“☀️🌷 Deseo que nunca pierdas esa capacidad de encontrar belleza en las pequeñas cosas: una flor que acaba de abrirse, una canción que te trae recuerdos, una conversación bonita o una tarde tranquila. Que incluso los días comunes tengan algún detalle capaz de alegrarte el corazón. 🌻🦋💗”</p>
+  <b>✧</b>
+</article>
+
+<article class="quote-card">
+  <span>19</span>
+  <p>“💐❤️ Hoy quisiera llenar tu día de flores, abrazos, sonrisas y palabras bonitas. Quisiera que cada detalle te recordara que celebrar tu vida es algo especial y que mereces recibir tanto cariño como el que has compartido con los demás. Que este cumpleaños sea una pausa preciosa para disfrutar de todo lo bueno que te rodea. 🎂🌸💝”</p>
+  <b>❀</b>
+</article>
+
+<article class="quote-card">
+  <span>20</span>
+  <p>“💗🌷 Feliz cumpleaños a una persona que merece un mundo lleno de cosas bonitas. Que la salud te acompañe, que la paz habite en tu corazón, que el amor te encuentre en cada etapa y que nunca te falten sueños que te emocionen. Y cuando pasen los años, ojalá recuerdes este día con una sonrisa y sepas que mis mejores deseos para ti siempre fueron sinceros. 🥹🎂🦋❤️”</p>
+  <b>♥</b>
+</article>
+<article class="quote-card">
+  <span>21</span>
+  <p>“🌷💗 Si pudiera pedirle un deseo al universo por ti, pediría que nunca olvidaras lo maravillosa que eres. Que la vida te sorprenda con momentos que te hagan llorar de felicidad, con abrazos que te hagan sentir en casa y con personas que te quieran de una manera tan bonita que jamás tengas que dudar de lo mucho que vales. 🥹❤️✨ Que cada flor que encuentres te recuerde que mereces florecer, que cada amanecer te dé una nueva esperanza y que cada cumpleaños sea una oportunidad para comenzar otra etapa llena de sueños, amor y alegría. 🌸🦋💐 Gracias por existir, por ser tú y por hacer que este mundo tenga un poquito más de luz. Nunca dejes de sonreír, porque mereces muchísimas razones para hacerlo. Feliz cumpleaños, que la vida te abrace bonito hoy y siempre. 🎂🎁🌹💖”</p>
+  <b>♡</b>
+</article>
+      </div>
+      <div class="screen-actions"><button class="secondary-button" data-prev>← Volver a cartas</button><button class="primary-button" data-next>Ver el jardin →</button></div>
+    </section>
+
+    <section class="screen memories-screen garden-screen" id="pantalla-recuerdos" data-screen="4">
+      <div class="screen-heading">
+        <p class="kicker">Pantalla 05 · Un jardín para ti</p>
+        <h2>Que la vida te regale<br><em>mil motivos para florecer</em></h2>
+        <p class="heading-intro">No hacen falta fotografías para celebrar los momentos bonitos: también podemos sembrar deseos para todo lo que viene.</p>
+      </div>
+      <div class="wish-garden" aria-label="Jardín ilustrado de buenos deseos">
+        <div class="garden-sky"><span class="garden-sun">☀</span><span class="garden-cloud cloud-a">☁</span><span class="garden-cloud cloud-b">☁</span><span class="garden-butterfly">🦋</span></div>
+        <div class="garden-ground"><span class="garden-flower f1">🌷</span><span class="garden-flower f2">🌼</span><span class="garden-flower f3">🌹</span><span class="garden-flower f4">🌸</span><span class="garden-flower f5">🌻</span><span class="garden-flower f6">🌷</span></div>
+      </div>
+      <div class="wish-cards">
+        <article><span>♡</span><h3>Salud y tranquilidad</h3><p>Que tengas días tranquilos, energía para disfrutar lo que amas y paz para descansar cuando lo necesites.</p></article>
+        <article><span>✿</span><h3>Muchos momentos felices</h3><p>Que nunca te falten motivos para reír, personas que te escuchen y pequeños detalles que alegren tu día.</p></article>
+        <article><span>✧</span><h3>Sueños por cumplir</h3><p>Que este nuevo año te acerque a tus sueños y te recuerde que tú también mereces cosas bonitas.</p></article>
+      </div>
+      <div class="memory-note"><span>♡</span><p>Ojalá cada flor de este jardín te recuerde que mereces amor, descanso, alegría y muchísimas cosas bonitas.</p></div>
+      <div class="screen-actions"><button class="secondary-button" data-prev>← Frases</button><button class="primary-button" data-next>Seguir disfrutando la música →</button></div>
+    </section>
+
+    <section class="screen music-screen" id="pantalla-musica" data-screen="5">
+      <div class="music-backdrop"></div>
+      <div class="screen-heading">
+        <p class="kicker">Pantalla 06 · Una melodía para ti</p>
+        <h2>Que la música<br><em>te acompañe siempre</em></h2>
+        <p class="heading-intro">El reproductor está en la primera pantalla para que puedas escucharlo desde el comienzo. Aquí te dejo un pequeño recordatorio para disfrutarlo con calma.</p>
+      </div>
+      <div class="music-message-card"><div class="music-message-icon">♫</div><h3>Una canción también puede ser un abrazo</h3></p><button class="primary-button" data-go="0">Volver al reproductor ♡</button></div>
+      <div class="screen-actions"><button class="secondary-button" data-prev>← Jardín</button><button class="primary-button" data-next>Mi último mensaje →</button></div>
+    </section>
+
+    <section class="screen final-screen" id="pantalla-final" data-screen="6">
+      <div class="final-frame">
+        <div class="final-flower">❀</div>
+        <p class="kicker">Pantalla 07 · Lo más importante</p>
+        <h2>Feliz cumpleaños,<br><em>mamá de mi corazón</em></h2>
+        <div class="ornament">✧ ───── ♡ ───── ✧</div>
+        
+        <p>💗🌷 Si pudiera pedir algo para ti, mamá, le pediría a la vida que te regalara muchísimos años más de salud, tranquilidad y felicidad. Pediría que cada amanecer llegara acompañado de una razón para sonreír, que tus días estuvieran llenos de momentos bonitos y que tu corazón siempre encontrara motivos para sentirse en paz. ✨🦋 Deseo que la vida te devuelva, de una u otra manera, todo el cariño, la paciencia y la bondad que has compartido con quienes tenemos la fortuna de conocerte. ❤️</p>
+
+        <p>🌸💖 Deseo que nunca te falten fuerzas para seguir adelante, pero también que nunca sientas que tienes que ser fuerte todo el tiempo. Que tengas días en los que puedas descansar sin preocupaciones, reír sin motivos y disfrutar de las pequeñas cosas que hacen hermosa la vida. 🥹💕 Que puedas dedicarte tiempo a ti misma, cumplir tus sueños, conocer lugares bonitos y vivir experiencias que se conviertan en recuerdos preciosos. Porque tú también mereces recibir todo ese amor que tantas veces das a los demás. 🌷💫</p>
+
+        <p>🫶🏻🌹 Ojalá la vida te abrace con momentos de tranquilidad cuando estés cansada, te sorprenda con alegrías cuando menos lo esperes y te recuerde, incluso en los días difíciles, lo valiosa que eres. Que nunca te falten personas sinceras que te escuchen, que te acompañen y que sepan apreciar el enorme corazón que tienes. 💗✨ Y si alguna vez las cosas no salen como esperabas, deseo que encuentres la fuerza para volver a intentarlo y la tranquilidad para recordar que no todo tiene que resolverse en un solo día. 🌈🦋</p>
+
+        <p>💐❤️ Gracias por tu cariño, por tus enseñanzas y por cada detalle que, aunque a veces parezca pequeño, termina significando muchísimo. Gracias por las palabras que dejan una enseñanza, por los momentos compartidos y por todas esas cosas bonitas que haces sin esperar nada a cambio. 🥹💞 A veces no encontramos las palabras exactas para expresar lo que sentimos, y quizá muchas veces el corazón guarda sentimientos que no sabemos cómo explicar, pero eso no significa que sean pequeños. Lo que siento por ti es demasiado especial para caber en unas cuantas líneas. 🌷💖</p>
+
+        <p>🧸💕 Quiero que sepas que tu presencia forma parte de una historia muy bonita, una historia en la que has dejado recuerdos, cariño y momentos que merecen ser guardados para siempre. Espero que, cuando mires hacia atrás, puedas sentir orgullo por todo lo que has vivido, por las dificultades que has superado y por las cosas hermosas que has compartido con los demás. 🌻✨ Y cuando mires hacia adelante, deseo que encuentres muchísimas razones para ilusionarte, nuevos sueños que cumplir y personas que te hagan sentir querida y acompañada. 💝🌈</p>
+
+        <p>🌙💗 En este día tan especial, quiero que recibas todo el amor que mereces y que recuerdes lo importante que eres. Que cada abrazo te transmita cariño, que cada palabra bonita te llegue al corazón y que cada sonrisa te recuerde que todavía hay muchísimas cosas maravillosas por vivir. 🎂🎉 Deseo que este nuevo año de vida venga acompañado de bendiciones, salud, momentos inolvidables y muchas oportunidades para ser feliz. Que tus preocupaciones sean más ligeras, tus alegrías más grandes y tus días estén llenos de paz. 🦋🌸</p>
+
+        <p>💖🌷 Ojalá pudiera guardar todos los momentos bonitos en una cajita para que pudieras abrirla cada vez que necesitaras recordar cuánto te quieren. Pondría dentro las sonrisas, los abrazos, las palabras sinceras, los recuerdos más dulces y todas esas pequeñas cosas que hacen que la vida tenga sentido. 🎁💞 Como no puedo hacer eso, quiero que esta página sea un pequeño recuerdo que puedas visitar cuando quieras, una manera de decirte que hay sentimientos que no se borran y personas que dejan una huella muy especial en nuestro corazón. 🥹❤️</p>
+
+        <p>🌹✨ Gracias por formar parte de mi historia y por permitirme dedicarte estas palabras. Tal vez esta carta no sea suficiente para expresar todo lo que quisiera decirte, pero cada palabra está escrita con muchísimo cariño. Espero que, al leerla, puedas sentir un poquito de todo el amor que quiero transmitirte y que esta pequeña sorpresa te saque una sonrisa de esas que hacen que cualquier esfuerzo valga la pena. 💗🫶🏻</p>
+
+        <p>🎂🎀 Hoy deseo que seas muy feliz, que disfrutes cada instante y que nunca olvides que tu vida también merece estar llena de cosas bonitas. Que la salud te acompañe, que la tranquilidad encuentre siempre un lugar en tu corazón y que el amor te rodee hoy, mañana y durante muchísimos años más. 🌸🦋 Que todos los deseos bonitos que guardas en tu corazón encuentren, poco a poco, el camino para hacerse realidad. 💐💖</p>
+
+        <p>💝🌷 Y si pudiera resumir todos mis deseos para ti en una sola frase, sería esta: que la vida te trate con tanta ternura como la que mereces, que te regale más motivos para sonreír que razones para preocuparte y que nunca te falte amor en ninguna etapa de tu camino. Porque hay personas que hacen más bonito el mundo simplemente siendo quienes son, y tú mereces que te recuerden lo especial que eres. ❤️✨</p>
+
+        <p class="final-signoff">Con todo mi amor, tu hija</p>
+        <button id="finalSurprise" class="primary-button">Abrir una última sorpresa ♡</button>
+        <div id="surpriseBox" class="surprise-box" hidden>Si pudiera volver a elegir, volvería a desear la fortuna de encontrarte y llamarte mamá. Que la vida te abrace tan bonito como tú has abrazado la mía. ♡</div>
+        <button id="restartButton" class="text-button">Volver a empezar desde el principio ↺</button>
+      </div>
+      <div class="petal-field" aria-hidden="true">✿　♡　❀　✧　♥　✿</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Hecho con amor, para una mamá irrepetible ♡</span>
+    <span id="screenCounter">Pantalla 1 de 7</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

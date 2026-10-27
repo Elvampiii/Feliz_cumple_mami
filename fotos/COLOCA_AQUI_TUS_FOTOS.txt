@@ -1,0 +1,1 @@
+Copia aquí las fotografías y usa sus rutas en index.html para que sean públicas.
